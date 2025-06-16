@@ -14,7 +14,7 @@ function Home() {
   return (
     <div
       name="Home"
-      className="max-w-screen-2xl container mx-auto px-4 md:px-20  md:my-20"
+      className="max-w-screen-2xl container mx-auto px-4 md:px-20 pt-24 md:pt-8"
     >
       <div className="flex flex-col md:flex-row items-center md:items-start">
         {/* Text & Info Section */}
