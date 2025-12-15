@@ -20,7 +20,7 @@ export const myProjects = [
   ],
   href: "https://eaii.onrender.com/",
   logo: "",
-  image: JobPortal, 
+  image:"https://res.cloudinary.com/dotb1gkhz/image/upload/v1765818207/JobPortal_mlpyaq.png",
   tags: [
     {
       id: 1,
@@ -62,7 +62,7 @@ export const myProjects = [
     ],
     href: "https://github.com/RoshANC-IT",
     logo: "",
-    image: Blinkit,
+    image:"https://res.cloudinary.com/dotb1gkhz/image/upload/v1765818208/Blinkit_nzqdu6.png",
       tags: [
     {
       id: 1,
@@ -101,7 +101,7 @@ export const myProjects = [
   ],
   href: "https://restorantrr.netlify.app/#hero-section",
   logo: "",
-  image: FoodLover,
+  image: "https://res.cloudinary.com/dotb1gkhz/image/upload/v1765818207/FoodLover_wntox7.png",
   tags: [
     {
       id: 1,
@@ -130,7 +130,7 @@ export const myProjects = [
   ],
   href: "https://male-fashion-ochre.vercel.app/",
   logo: "",
-  image: MaleFashion,
+  image:"https://res.cloudinary.com/dotb1gkhz/image/upload/v1765818208/MaleFashion_m4fwgh.png",
   tags: [
     {
       id: 1,
@@ -161,7 +161,7 @@ export const myProjects = [
   ],
   href: "https://replit.com/@roshanranjput92/BankManagement",
   logo: "",
-  image: JavaBank,
+  image: "https://res.cloudinary.com/dotb1gkhz/image/upload/v1765818206/JavaBank_ols1z4.png",
   tags: [
     {
       id: 1,
