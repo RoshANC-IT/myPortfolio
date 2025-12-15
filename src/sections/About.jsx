@@ -171,7 +171,7 @@ const About = () => {
           </div>
 
           <div className="absolute inset-y-0 md:inset-y-9 w-full h-full start-[50%] md:scale-125">
-            <Frameworks />
+            <Frameworks/>
           </div>
         </div>
       </div>
