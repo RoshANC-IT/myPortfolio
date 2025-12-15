@@ -34,9 +34,9 @@ const Contact = () => {
         "template_17us8im",
         {
           from_name: formData.name,
-          to_name: "Ali",
+          to_name: "Roshan Chauhan",
           from_email: formData.email,
-          to_email: "AliSanatiDev@gmail.com",
+          to_email: "roshanranjput92@gmail.com",
           message: formData.message,
         },
         "pn-Bw_mS1_QQdofuV"
@@ -75,7 +75,7 @@ const Contact = () => {
             </label>
             <input
               id="name"
-              name="name"
+              name="client"
               type="text"
               className="field-input field-input-focus"
               placeholder="John Doe"
@@ -94,7 +94,7 @@ const Contact = () => {
               name="email"
               type="email"
               className="field-input field-input-focus"
-              placeholder="JohnDoe@email.com"
+              placeholder="client@email.com"
               autoComplete="email"
               value={formData.email}
               onChange={handleChange}

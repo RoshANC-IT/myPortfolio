@@ -1,286 +1,249 @@
+
+// import JobPortal from "./JobPortal.png";
+import JobPortal from "../assets/JobPortal.png"
+import FoodLover from "../assets/FoodLover.png"
+import MaleFashion from "../assets/MaleFashion.png"
+import JavaBank from "../assets/JavaBank.png"
+import Blinkit from "../assets/Blinkit.png"
+
+
 export const myProjects = [
-  {
-    id: 1,
-    title: "E-commerce Platform",
-    description:
-      "Facilitates purchases from international websites like Amazon and eBay, allowing customers to shop from these sites and have products delivered domestically.",
-    subDescription: [
-      "Built a scalable application with ASP.NET Core MVC, integrating global platforms like Amazon for domestic delivery.",
-      "Implemented secure authentication and database management using ASP.NET Core Identity and Entity Framework Core.",
-      "Designed a responsive frontend with Tailwind CSS, enhancing user experience.",
-      "Added payment systems, localization, and product filtering for functionality improvements.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/accessories.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "C#",
-        path: "/assets/logos/csharp.svg",
-      },
-      {
-        id: 2,
-        name: ".Net",
-        path: "/assets/logos/dotnet.svg",
-      },
-      {
-        id: 3,
-        name: "Ef Core",
-        path: "/assets/logos/efcore.png",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
-    ],
-  },
+{
+  id: 1,
+  title: "Job Portal",
+  description: "Full-stack job portal with role-based authentication and real-time job features.",
+  subDescription: [
+    "Developed a full-stack job portal with role-based JWT authentication, supporting 200+ users.",
+    "Enabled real-time job search, resume upload, and application tracking with MongoDB and Cloudinary integration.",
+    "Designed an admin dashboard to efficiently manage job postings and user data.",
+    "Improved UI responsiveness and accessibility using Tailwind CSS and ShadcnUI components.",
+  ],
+  href: "https://eaii.onrender.com/",
+  logo: "",
+  image: JobPortal, 
+  tags: [
+    {
+      id: 1,
+      name: "MongoDB",
+      path: "https://img.icons8.com/color/48/mongodb.png",
+    },
+    {
+      id: 2,
+      name: "Express",
+      path: "https://img.icons8.com/ios/50/express-js.png",
+    },
+    {
+      id: 3,
+      name: "React",
+      path: "https://img.icons8.com/officel/48/react.png",
+    },
+    {
+      id: 4,
+      name: "Node.js",
+      path: "https://img.icons8.com/color/48/nodejs.png",
+    },
+    {
+      id: 5,
+      name: "TailwindCSS",
+      path: "https://img.icons8.com/color/48/tailwind_css.png",
+    },
+  ],
+}
+,
   {
     id: 2,
-    title: "Authentication & Authorization System",
-    description:
-      "A secure authentication and authorization system using Auth0 for seamless user management.",
+    title: "Blinkit Clone E-Commerce Platform",
+    description: "Scalable e-commerce app with secure payments and backend integration.",
     subDescription: [
-      "Integrated Auth0 for authentication, supporting OAuth, JWT, and multi-factor authentication.",
-      "Implemented role-based access control (RBAC) for fine-grained user permissions.",
-      "Developed a React-based frontend with Tailwind CSS for a sleek user experience.",
-      "Connected to a secure SQLite database for user data storage.",
+      "Built scalable e-commerce platform with secure payment integration (Stripe/Razorpay) and role-based access control.",
+      "Developed RESTful APIs and managed state with Redux Toolkit to improve frontend-backend synchronization.",
+      "Enhanced security with JWT, bcrypt password hashing, and Helmet middleware, ensuring data protection.",
+      "Achieved 99.9% uptime by deploying with cloud services (Vercel).",
     ],
-    href: "",
+    href: "https://github.com/RoshANC-IT",
     logo: "",
-    image: "/assets/projects/auth-system.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "Auth0",
-        path: "/assets/logos/auth0.svg",
-      },
-      {
-        id: 2,
-        name: "React",
-        path: "/assets/logos/react.svg",
-      },
-      {
-        id: 3,
-        name: "SQLite",
-        path: "/assets/logos/sqlite.svg",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
-    ],
+    image: Blinkit,
+      tags: [
+    {
+      id: 1,
+      name: "MongoDB",
+      path: "https://img.icons8.com/color/48/mongodb.png",
+    },
+    {
+      id: 2,
+      name: "Express",
+      path: "https://img.icons8.com/ios/50/express-js.png",
+    },
+    {
+      id: 3,
+      name: "React",
+      path: "https://img.icons8.com/officel/48/react.png",
+    },
+    {
+      id: 4,
+      name: "Node.js",
+      path: "https://img.icons8.com/color/48/nodejs.png",
+    },
+    {
+      id: 5,
+      name: "TailwindCSS",
+      path: "https://img.icons8.com/color/48/tailwind_css.png",
+    },
+  ],
   },
-  {
-    id: 3,
-    title: "Blazor Web App",
-    description:
-      "A modern, interactive web application built with Blazor WebAssembly and .NET Core.",
-    subDescription: [
-      "Developed a fully interactive Single Page Application (SPA) using Blazor WebAssembly.",
-      "Implemented API interactions using .NET Core for a robust backend.",
-      "Designed responsive UI components with Tailwind CSS for an enhanced UX.",
-      "Integrated SQLite for efficient client-side database storage.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/blazor-app.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "Blazor",
-        path: "/assets/logos/blazor.svg",
-      },
-      {
-        id: 2,
-        name: ".NET Core",
-        path: "/assets/logos/dotnetcore.svg",
-      },
-      {
-        id: 3,
-        name: "SQLite",
-        path: "/assets/logos/sqlite.svg",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
-    ],
-  },
-  {
-    id: 4,
-    title: "C++ Game Engine",
-    description:
-      "A lightweight C++ game engine designed for 2D and 3D game development.",
-    subDescription: [
-      "Built a powerful rendering engine using OpenGL and C++.",
-      "Developed a physics engine with collision detection and particle effects.",
-      "Implemented a scripting system for easy game customization.",
-      "Optimized performance with multi-threading and efficient memory management.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/game-engine.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "C++",
-        path: "/assets/logos/cplusplus.svg",
-      },
-      {
-        id: 2,
-        name: "C#",
-        path: "/assets/logos/csharp.svg",
-      },
-      {
-        id: 3,
-        name: "Git",
-        path: "/assets/logos/git.svg",
-      },
-      {
-        id: 4,
-        name: "Microsoft",
-        path: "/assets/logos/microsoft.svg",
-      },
-    ],
-  },
-  {
-    id: 5,
-    title: "WordPress Custom Theme",
-    description:
-      "A fully customizable WordPress theme optimized for performance and SEO.",
-    subDescription: [
-      "Developed a responsive WordPress theme using HTML5, CSS3, and JavaScript.",
-      "Integrated Tailwind CSS for modern styling and UI enhancements.",
-      "Optimized SEO and page speed using Vite.js for fast builds.",
-      "Implemented custom widgets and plugin compatibility for extended functionality.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/wordpress-theme.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "WordPress",
-        path: "/assets/logos/wordpress.svg",
-      },
-      {
-        id: 2,
-        name: "HTML5",
-        path: "/assets/logos/html5.svg",
-      },
-      {
-        id: 3,
-        name: "CSS3",
-        path: "/assets/logos/css3.svg",
-      },
-      {
-        id: 4,
-        name: "Vite.js",
-        path: "/assets/logos/vitejs.svg",
-      },
-    ],
-  },
-  {
-    id: 6,
-    title: "Online Learning Platform",
-    description:
-      "A web application that allows users to enroll in courses, watch video lectures, and take quizzes.",
-    subDescription: [
-      "Built using Blazor WebAssembly for a seamless SPA experience.",
-      "Implemented video streaming with Azure Media Services.",
-      "Added a quiz system with dynamic question generation and real-time grading.",
-      "Integrated Stripe API for secure payment processing.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/elearning.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "Blazor",
-        path: "/assets/logos/blazor.svg",
-      },
-      {
-        id: 2,
-        name: "Azure",
-        path: "/assets/logos/azure.svg",
-      },
-      {
-        id: 3,
-        name: "Stripe",
-        path: "/assets/logos/stripe.svg",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
-    ],
-  },
+{
+  id: 3,
+  title: "FoodLover Restaurant Website",
+  description: "Responsive static restaurant website with clean UI and modern design.",
+  subDescription: [
+    "Created a fully responsive multi-section static website featuring menu, reviews, FAQs, and footer.",
+    "Focused on clean UI design and cross-browser compatibility with HTML5, CSS3, and JavaScript.",
+  ],
+  href: "https://restorantrr.netlify.app/#hero-section",
+  logo: "",
+  image: FoodLover,
+  tags: [
+    {
+      id: 1,
+      name: "HTML5",
+      path: "https://img.icons8.com/color/48/html-5--v1.png",
+    },
+    {
+      id: 2,
+      name: "CSS3",
+      path: "https://img.icons8.com/color/48/css3.png",
+    },
+    {
+      id: 3,
+      name: "JavaScript",
+      path: "https://img.icons8.com/color/48/javascript--v1.png",
+    },
+  ],
+},
+{
+  id: 4,
+  title: "Male FashionWebsite",
+  description: "Responsive static restaurant website with clean UI and modern design.",
+  subDescription: [
+    "Created a fully responsive multi-section static website featuring menu, reviews, FAQs, and footer.",
+    "Focused on clean UI design and cross-browser compatibility with HTML5, CSS3, and JavaScript.",
+  ],
+  href: "https://male-fashion-ochre.vercel.app/",
+  logo: "",
+  image: MaleFashion,
+  tags: [
+    {
+      id: 1,
+      name: "HTML5",
+      path: "https://img.icons8.com/color/48/html-5--v1.png",
+    },
+    {
+      id: 2,
+      name: "CSS3",
+      path: "https://img.icons8.com/color/48/css3.png",
+    },
+    {
+      id: 3,
+      name: "JavaScript",
+      path: "https://img.icons8.com/color/48/javascript--v1.png",
+    },
+  ],
+}
+,
+ {
+  id: 5,
+  title: "Bank Management System",
+  description: "Console-based banking app with PIN authentication and file-based storage.",
+  subDescription: [
+    "Built console-based banking application in Java supporting account creation, PIN-secured login, and transaction processing.",
+    "Implemented persistent storage using file I/O and serialization to maintain customer data.",
+    "Applied OOP principles to improve code modularity and maintainability.",
+  ],
+  href: "https://replit.com/@roshanranjput92/BankManagement",
+  logo: "",
+  image: JavaBank,
+  tags: [
+    {
+      id: 1,
+      name: "Java",
+      path: "https://img.icons8.com/color/48/java-coffee-cup-logo--v1.png",
+    },
+    {
+      id: 2,
+      name: "OOP",
+      path: "https://img.icons8.com/external-flaticons-flat-flat-icons/48/external-oop-computer-programming-flaticons-flat-flat-icons.png",
+    },
+  ],
+}
+,
 ];
 
 export const mySocials = [
   {
     name: "WhatsApp",
-    href: "",
+    href: "https://whatsapp.com/channel/0029VbBQib242DcZZJ2SXz3P",
     icon: "/assets/socials/whatsApp.svg",
   },
   {
     name: "Linkedin",
-    href: "https://www.linkedin.com/in/ali-sanati/",
+    href: "https://www.linkedin.com/in/roshan-chauhan-IT/",
     icon: "/assets/socials/linkedIn.svg",
   },
   {
     name: "Instagram",
-    href: "https://www.instagram.com/ali.sanatidev/reels/",
+    href: "https://www.instagram.com/r_o_s_h_a_n_9_4_2_0/",
     icon: "/assets/socials/instagram.svg",
   },
 ];
 
 export const experiences = [
   {
-    title: "Software Developer",
-    job: "Security & Defense Projects",
-    date: "2021-2023",
+    title: "Full Stack Developer Intern",
+    job: "Prasunet Pvt. Ltd. (Tech Bharat)",
+    date: "Mar 2025 - Apr 2025",
     contents: [
-      "Enhanced application security and developed new features, adhering to standards set by the Passive Defense Organization and National Cyberspace Center.",
-      "Designed and implemented intuitive map interfaces using MapsUI, enhancing user experience and enabling seamless interactive map integration.",
-      "Developed applications for industrial automation, leveraging C++ and the Fatek API for PLC communication.",
-      "Enhanced responsiveness and usability of applications using Windows Forms and WPF frameworks.",
-      "Executed XML to SVG conversions using X-DOM, ensuring dynamic and efficient data visualization.",
+      "Worked on a live MERN stack project, contributing to both frontend and backend modules.",
+      "Developed reusable React components and integrated RESTful APIs using Node.js and Express.",
+      "Collaborated in an Agile environment with sprints, stand-ups, Git workflows, and code reviews.",
+      "Optimized backend logic and improved API response structures for better performance.",
+      "Gained hands-on experience with JWT authentication, MongoDB integration, and deployment workflows.",
     ],
   },
   {
-    title: "Back-End Developer",
-    job: "Car Manufacture",
-    date: "2023-2024",
+    title: "Front-End Development Intern",
+    job: "ADM Education & Welfare Society (Internshala)",
+    date: "Apr 2025",
     contents: [
-      "Engineered systems for large-scale data ingestion and analysis, ensuring efficient data processing and storage.",
-      "Developed back-end systems enabling vehicle-to-cloud communication for telemetry, diagnostics, and remote control:",
-      "✅ Implemented secure APIs, following ISO 26262 automotive safety standards.",
-      "✅ Ensured data privacy for customers and partners through industry-compliant protocols.",
-      "✅ Delivered remote features like over-the-air updates, real-time tracking, and remote start capabilities.",
+      "Selected for Front-End Development internship through the Internshala selection process.",
+      "Built responsive and accessible UI components using HTML, CSS, and JavaScript.",
+      "Focused on cross-browser compatibility, mobile-first design, and UI best practices.",
+      "Improved frontend structuring and component reusability.",
     ],
   },
   {
     title: "Freelance Developer",
     job: "Self-Employed",
-    date: "2025-Present",
+    date: "2025 - Present",
     contents: [
-      "Created a personal portfolio using Three.js, React, Vite, and WebAPI to showcase technical expertise.",
-      "Continuously enhancing technical skills and expanding expertise in modern web development and back-end technologies.",
+      "Developed and maintained a personal portfolio website to showcase projects and technical skills.",
+      "Created and deployed multiple web projects using React, Tailwind CSS, and modern tooling.",
+      "Worked on full-stack academic and personal projects including MERN applications.",
+      "Continuously improving skills in full-stack development, cloud deployment, and system design.",
     ],
   },
 ];
+
 export const reviews = [
   {
     name: "Jack",
     username: "@jack",
     body: "I've never seen anything like this before. It's amazing. I love it.",
+    img: "https://robohash.org/jack",
+  },
+  {
+    name: "Roshan Bilsore",
+    username: "@RoshanBilsore",
+    body: "I've never seen anything like this before. It's amazing. I love it. And you the brilient Developer ",
     img: "https://robohash.org/jack",
   },
   {
@@ -300,6 +263,12 @@ export const reviews = [
     username: "@alice",
     body: "This is hands down the best thing I've experienced. Highly recommend!",
     img: "https://robohash.org/alice",
+  },
+  {
+    name: "Aman",
+    username: "@Aman",
+    body: "I've never seen anything like this before.And you the brilient Developer , Keep Growwing Bro",
+    img: "https://robohash.org/jack",
   },
   {
     name: "Bob",
